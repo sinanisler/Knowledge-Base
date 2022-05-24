@@ -9,5 +9,5 @@
 
 Knowledge Base and Wiki WordPress Theme
 
-WordPress + REST + CSS + JS + ReactJS
+WordPress + REST + CSS + JS + React
 
