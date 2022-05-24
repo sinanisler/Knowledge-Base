@@ -11,3 +11,8 @@ Knowledge Base and Wiki WordPress Theme
 
 WordPress + REST + CSS + JS + React
 
+
+## Installation
+
+- Activate theme start writing
+- No plugin needed
