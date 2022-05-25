@@ -15,27 +15,28 @@
 <div class="content-body">
     <div class="header">
         <div class="logo">
-
+            logo here 
         </div>
         <div class="menu">
-
+            menu
         </div>
     </div>
     <div class="search">
-
+        search
     </div>
 
     <div class="content">
         <div class="articles">
-
+            categories and articles
         </div>
-        <div class="categories">
-
+        <div class="sidebar-categories">
+            sidebar last articles and categories
+            widget support ? do we need it ?
         </div>
     </div>
 
     <div class="footer">
-        <div class="menu"></div>
+        <div class="menu">footer menu</div>
         <div class="site-name"><?php bloginfo('name'); ?></div>
     </div>
 </div>
