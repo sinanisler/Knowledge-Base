@@ -12,7 +12,7 @@
 
 Knowledge Base and Wiki WordPress Theme
 
-WordPress + REST + CSS + JS
+WordPress + WP REST + CSS + JS
 
 
 ## Installation
