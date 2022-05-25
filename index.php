@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php wp_title(); ?></title>
+    <title><?php if(is_front_page() || is_home()){ echo get_bloginfo('name');    } else{ echo wp_title('');    }?></title>
     <link rel=icon href="<?php bloginfo("stylesheet_directory"); ?>/img/favicon.png" type="image/png">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style.css">
     <script> var bloginfo_url = '<?php bloginfo("url"); ?>'; </script>

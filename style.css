@@ -12,17 +12,10 @@ body{
 
 .content-wrapper{
     display: grid;
-    grid-template-columns: repeat(1fr);
-    grid-template-areas: 
-    ". a ."
-    ". a .";
-    grid-auto-rows: 100px;
 }
 
 .content-body{
     width: 990px;
-    grid-area: a;
-    grid-template-columns: 1fr;
     justify-self: center;
     align-self: center;
 }
