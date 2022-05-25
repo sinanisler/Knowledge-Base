@@ -6,29 +6,35 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
 
 
 
-// get the user search input
-let search_input = 'test'
+// get the user search input show result
 
-window.addEventListener("keydown", function(event) {
-    console.log('stepkey')
-
-  }, true);
-
-
-
+/*
+const search_input = document.querySelector('.search_input');
+search_input.addEventListener('keydown', logKey);
+function logKey(e) {
+  console.log(e.code)
+}
 
 
 
-// user input and request search on wp rest
-fetch(bloginfo_url + '/wp-json/wp/v2/search?search=' + search_input)
-.then(response => response.json())
-.then(
-    data => {
-            data.forEach( (item) => {
-                console.log(item.title)
-            }
-        )
-    }
-);
+input_text.addEventListener("keydown", function(event) {
+    
+    // search on wp rest
+    fetch(bloginfo_url + '/wp-json/wp/v2/search?search=' + search_input)
+    .then(response => response.json())
+    .then(
+        data => {
+                data.forEach( (item) => {
+                    console.log(item.title)
+                }
+            )
+        }
+    );
+
+}, true);
+
+*/
+
+
 
 

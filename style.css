@@ -1,33 +1,12 @@
 
 
-/*      VARIABLES      */
-:root{
-    --dark_mod_white : #ffffff;
-    --dark_mod_bg    :#14191f;
-}
-
-body{
-    background: var(--dark_mod_bg);
-}
-
-.content-wrapper{
-    display: grid;
-}
-
-.content-body{
-    width: 990px;
-    justify-self: center;
-    align-self: center;
-}
 
 
 
-/* temporary css */
-.content-body * {
-    border:solid 1px white;
-    padding: 20px;
-}
-
+/* SETTINGS */
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1100px;
+  }
 
 
 
