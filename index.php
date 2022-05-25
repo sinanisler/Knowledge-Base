@@ -23,6 +23,12 @@
     </div>
     <div class="search">
         search
+        <input type="text">
+        <div id="search-results">
+
+
+        </div>
+
     </div>
 
     <div class="content">
