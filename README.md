@@ -1,3 +1,6 @@
+![](https://raw.githubusercontent.com/sinanisler/sinanisler/master/img/siknowledge.png)
+
+
 # Knowledge Base and Wiki WordPress Theme
 
 ![](https://img.shields.io/badge/Status-Under_Development-orange.svg)
@@ -14,5 +17,19 @@ WordPress + REST + CSS + JS + React
 
 ## Installation
 
-- Activate theme start writing
+- Activate Theme and Start Writing
 - No plugin needed
+- .
+- .
+
+
+
+
+
+
+
+
+
+
+
+
