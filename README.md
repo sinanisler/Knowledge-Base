@@ -23,8 +23,9 @@ WordPress + WP REST + CSS + JS
 - .
 
 
+## Plan
 
-
+![](https://raw.githubusercontent.com/sinanisler/sinanisler/master/img/plan.png)
 
 
 
