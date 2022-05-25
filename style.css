@@ -1,23 +1,40 @@
 
 
+/*      VARIABLES      */
 :root{
     --dark_mod_white : #ffffff;
     --dark_mod_bg    :#14191f;
 }
 
-
 body{
     background: var(--dark_mod_bg);
+}
+
+.content-wrapper{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-areas: 
+    ". a ."
+    ". a .";
+    grid-auto-rows: 100px;
+}
+
+.content-body{
+    width: 990px;
+    grid-area: a;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    align-self: center;
 }
 
 
 
 
-
-
-
-
-
+/* temporary css */
+.content-body * {
+    border:solid 1px white;
+    padding: 20px;
+}
 
 
 
