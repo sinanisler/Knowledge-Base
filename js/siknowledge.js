@@ -9,6 +9,14 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
 // get the user search input
 let search_input = 'test'
 
+window.addEventListener("keydown", function(event) {
+    console.log('stepkey')
+
+  }, true);
+
+
+
+
 
 
 // user input and request search on wp rest
