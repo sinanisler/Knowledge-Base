@@ -26,7 +26,8 @@ input_text.addEventListener("keydown", function(event) {
         data => {
                 data.forEach( (item) => {
                     console.log(item.title)
-                    // append the title and slug url on a ul > li under search input
+                    // we will append here 
+                    // the title and slug url  ul > li under search input
 
 
                 }
