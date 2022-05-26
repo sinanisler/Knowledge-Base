@@ -19,7 +19,7 @@ input_text.addEventListener("keydown", function(event) {
         data => {
                 data.forEach( (item) => {
                     console.log(item.title)
-                    // we will append here 
+                    // we will render html 
                     // the title and slug url  ul > li under search input
 
 
@@ -37,8 +37,36 @@ input_text.addEventListener("keydown", function(event) {
 
 
 
-
 // user device dark mod check
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     // console.log('dark-mod-on');
 }
+
+
+
+
+
+
+
+
+
+
+function A(x) {
+    function B(y) {
+      function C(z) {
+        // console.log(x + y + z);
+      }
+      C(3);
+    }
+    B(2);
+  }
+  A(1); // logs 6 (1 + 2 + 3)
+
+  
+
+
+
+
+
+
+
