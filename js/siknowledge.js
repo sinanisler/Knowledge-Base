@@ -8,7 +8,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
 
 // get the user search input show result
 
-/*
+
 const search_input = document.querySelector('.search_input');
 search_input.addEventListener('keydown', logKey);
 function logKey(e) {
@@ -26,6 +26,9 @@ input_text.addEventListener("keydown", function(event) {
         data => {
                 data.forEach( (item) => {
                     console.log(item.title)
+                    // append the title and slug url on a ul > li under search input
+
+
                 }
             )
         }
@@ -33,7 +36,7 @@ input_text.addEventListener("keydown", function(event) {
 
 }, true);
 
-*/
+
 
 
 
