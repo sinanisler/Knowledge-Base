@@ -12,32 +12,23 @@
 </head>
 <body <?php body_class(); ?>>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example">
-    <div class="container-xl">
-      <a class="navbar-brand" href="#">LOGO or NAME LEFT</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<div class="container">
+  <header class="d-flex flex-wrap justify-content-between align-items-center">
+    <p class="col-md-4 mb-0 "> 
+      <?php bloginfo("name");  ?>
+    </p>
 
 
-        <div class="justify-content-end">
-            <div class="p-2">menu right</div>
-            <div class="p-2">menu right 2</div>
-            <div class="p-2">menu right 3</div>
-        </div>
-
-
-    </div>
-  </nav>
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 ">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 ">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 ">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 ">About</a></li>
+    </ul>
+</header>
+</div>
 
   
-
-
-
-
-
-
-
 
 
 
@@ -52,7 +43,6 @@
     <ul class="nav col-md-4 justify-content-end">
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
     </ul>

@@ -1,13 +1,6 @@
 
-// user device dark mod check
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    // console.log('dark-mod-on');
-}
 
-
-
-// get the user search input show result
-
+// get the user search input show result from global var
 
 const search_input = document.querySelector('.search_input');
 search_input.addEventListener('keydown', logKey);
@@ -42,3 +35,10 @@ input_text.addEventListener("keydown", function(event) {
 
 
 
+
+
+
+// user device dark mod check
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    // console.log('dark-mod-on');
+}
