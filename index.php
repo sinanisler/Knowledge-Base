@@ -6,13 +6,13 @@
     <title><?php if(is_front_page() || is_home()){ echo get_bloginfo('name');    } else{ echo wp_title('');    }?></title>
     <link rel=icon href="<?php bloginfo("stylesheet_directory"); ?>/img/favicon.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style.css?<?php echo rand(); ?>">
     <script> var bloginfo_url = '<?php bloginfo("url"); ?>'; </script>
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 
-<div class="container">
+<div class="header container">
   <header class="d-flex flex-wrap justify-content-between align-items-center">
     <p class="col-md-4 mb-0 "> 
       <?php bloginfo("name");  ?>
@@ -28,12 +28,20 @@
 </header>
 </div>
 
-  
+<div class="search-wrapper">
+<div class="search container">
+  <section class="d-flex flex-wrap justify-content-between align-items-center">
+
+  <div class="display-6 container-fluid text-center">How can we help ?</div>
+  <div class="container-fluid p-4 ">
+  <input type="text" class="form-control search-index-input translate-middle" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+
+  </div>
 
 
-
-
-
+  </section>
+</div>
+</div>
 
 <div class="container">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
