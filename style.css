@@ -1,5 +1,11 @@
-
-
+/*
+Theme Name: SiKnowledge
+Theme URI: https://sinanisler.com/
+Author: Sinan Isler
+Author URI: https://sinanisler.com/
+Description: Free Knowledge Base and Wiki theme for earth creatures. 
+Version: 0.0
+*/
 
 
 
@@ -8,10 +14,13 @@
     max-width: 1100px;
   }
 
+
+
+
+/* THEME STYLES */
 .header{
     padding: 20px;
-  }
-
+}
 
 
 .search-wrapper{
@@ -23,9 +32,10 @@
 
 
 .search-index-input{
-  width:400px;
+  width:60%;
   margin-left:50%;
   margin-top: 20px;
+  padding: 10px;
 }
 
 

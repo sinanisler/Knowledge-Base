@@ -14,7 +14,7 @@
 
 <div class="header container">
   <header class="d-flex flex-wrap justify-content-between align-items-center">
-    <p class="col-md-4 mb-0 "> 
+    <p class="col-md-4 mb-0 header-logo-name"> 
       <?php bloginfo("name");  ?>
     </p>
 
@@ -33,9 +33,10 @@
   <section class="d-flex flex-wrap justify-content-between align-items-center">
 
   <div class="display-6 container-fluid text-center">How can we help ?</div>
+  <div class="container-fluid text-center p-2">Start typing find solutions and articles for your need.</div>
   <div class="container-fluid p-4 ">
-  <input type="text" class="form-control search-index-input translate-middle" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-
+    <input type="text" class="form-control search-index-input translate-middle" 
+    aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Start Searching...">
   </div>
 
 
