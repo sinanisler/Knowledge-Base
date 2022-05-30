@@ -30,19 +30,39 @@
 
 <div class="search-wrapper">
 <div class="search container">
-  <section class="d-flex flex-wrap justify-content-between align-items-center">
+<section class="d-flex flex-wrap justify-content-between align-items-center">
 
-  <div class="display-6 container-fluid text-center">How can we help ?</div>
-  <div class="container-fluid text-center p-2">Start typing find solutions and articles for your need.</div>
-  <div class="container-fluid p-4 ">
-    <input type="text" class="form-control search-index-input translate-middle" 
-    aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Start Searching...">
-  </div>
+    <div class="display-6 container-fluid text-center s">Articles & Solutions</div>
+    <div class="container-fluid text-center p-2 pp">Start searching for finding articles and solutions.</div>
+    <div class="container-fluid p-4 ">
+      <input type="text" class="form-control search-index-input translate-middle" 
+      aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Start Searching...">
+    </div>
 
-
-  </section>
+</section>
 </div>
 </div>
+
+
+<div class="content-wrapper">
+<div class="content container">
+
+<div class="display-6 container-fluid text-center s">Categories and Articles</div>
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
 
 <div class="container">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">

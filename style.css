@@ -26,8 +26,15 @@ Version: 0.0
 .search-wrapper{
   display: block;
   background:rgb(1, 91, 165);
-  color:white;
   padding: 50px;
+}
+
+.search-wrapper .s{
+  color:white;
+}
+
+.search-wrapper .pp{
+  color:rgb(179, 189, 209);
 }
 
 
@@ -36,9 +43,14 @@ Version: 0.0
   margin-left:50%;
   margin-top: 20px;
   padding: 10px;
+  color:rgb(92, 109, 145);
 }
 
 
+.content-wrapper{
+  display: block;
+  padding: 50px;
+}
 
 
 
