@@ -10,6 +10,8 @@
 ![](https://img.shields.io/badge/REST-pink.svg)
 
 
+![](https://img.shields.io/badge/Status-Short_Break_Working_on_Client_Project_Now-red.svg)
+
 Knowledge Base and Wiki WordPress Theme
 
 WordPress + WP REST + CSS + JS
