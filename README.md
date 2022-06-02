@@ -3,7 +3,7 @@
 
 # Knowledge Base and Wiki WordPress Theme
 
-![](https://img.shields.io/badge/Status-Short_Break_Working_on_Client_Project_Now-red.svg)
+![](https://img.shields.io/badge/Status-Short_Break_Working_on_Client_Project_Now-e35656.svg)
 ![](https://img.shields.io/badge/Status-Under_Development-orange.svg)
 ![](https://img.shields.io/badge/WordPress-blue.svg) 
 ![](https://img.shields.io/badge/JS-yellow.svg)
