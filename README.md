@@ -10,11 +10,13 @@
 ![](https://img.shields.io/badge/REST-pink.svg)
 
 
-![](https://raw.githubusercontent.com/sinanisler/sinanisler/master/img/siknowledge.png)
-
 Knowledge Base and Wiki WordPress Theme
 
 WordPress + WP REST + CSS + JS
+
+
+![](https://raw.githubusercontent.com/sinanisler/sinanisler/master/img/siknowledge.png)
+
 
 
 ## Installation
